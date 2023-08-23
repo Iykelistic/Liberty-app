@@ -4,6 +4,7 @@ import ArrowDown from "../assets/images/ArrowDown.svg";
 import { TbCurrencyNaira } from "react-icons/tb";
 
 const SecondLayer = () => {
+
     return (
         <div>
             <div className="dashboard__content">
