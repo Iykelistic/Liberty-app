@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sidebar__container {
+  width: 20%;
+}
+
+.sidebar__content {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.sidebar__title {
+  font-family: "Nunito", sans-serif;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.sidebar__subtitle {
+  font-family: "Nunito", sans-serif;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.sidebar__line {
+  margin-top: -30px;
+}
+
+.sidebar__line_i {
+  margin-top: -10px;
+}
+
+.sidebar__first__content__container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 15px;
+  margin-bottom: 25px;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.sidebar__first__content {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.analytics__context {
+  width: 224px;
+  height: 46px;
+  background: #192749;
+  border-radius: 10px;
+  align-items: center;
+  align-content: center;
+}
+
+.sidebar__home__icon {
+  height: 30px;
+  width: 30px;
+}
+
+.cat {
+  margin-left: 3px;
+}
+
+.sidebar__home__text {
+  padding-left: 20px;
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  padding-top: 3px;
+}
+
+.sidebar__second__content__container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 15px;
+  margin-bottom: 25px;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.sidebar__second__content {
+  display: flex;
+  margin-bottom: 25px;
+  justify-content: space-between;
+}
+
+.sidebar__second__context {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.sidebar__chevron__icon {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 50px;
+}
+
+.sidebar__shop__icon {
+  height: 30px;
+  width: 30px;
+}
+
+.sidebar__shop__text {
+  padding-left: 20px;
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  padding-top: 3px;
+}
+
+.sidebar__shop__text_i {
+  padding-left: 15px;
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  padding-top: 3px;
+}
+.sidebar__chevron {
+  height: 30px;
+  width: 30px;
+}
+
+.sidebar__third__content__container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 15px;
+  margin-bottom: 25px;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.sidebar__third__content {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.sidebar__medal {
+  height: 30px;
+  width: 30px;
+}
+
+/* For Responsiveness */
+
+@media (max-width: 479px) {
+  .sidebar__container {
+    display: none;
+  }
+}
+
+@media (min-width: 480x) and (max-width: 767px) {
+  .sidebar__container {
+    display: none;
+  }
+}

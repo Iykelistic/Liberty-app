@@ -1,0 +1,351 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dashboard__container {
+  width: 80%;
+  background-color: #f8f9fb;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.dashboard__content {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+
+.dashboard__content__i {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+
+.dashboard__img {
+  margin-top: 15px;
+}
+
+.dashboard__content__card {
+  margin-top: 15px;
+  border-radius: 10px;
+  width: 289px;
+  height: 155px;
+  background-color: #fff;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.dashboard__content__inner__card {
+  margin: 15px auto;
+  border-radius: 10px;
+  background-color: #f6faff;
+  width: 265px;
+  height: 104px;
+  z-index: 2;
+}
+
+.innercard__text__savings {
+  color: #4f64a7;
+  font-family: "Nunito", sans-serif;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.innercard__naira {
+  display: flex;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.innercard__currency {
+  color: #0322b2;
+  padding-top: 3px;
+  height: 35px;
+  width: 35px;
+}
+
+.innercard__text__amount {
+  color: #0322b2;
+  font-family: "Nunito", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  padding-top: 3px;
+}
+
+.outercard__content {
+  display: flex;
+  justify-content: flex-start !important;
+  margin-left: 38px;
+  margin-top: -10px;
+}
+
+.outercard__content__text {
+  color: #032282;
+  font-size: 14px;
+  font-family: "Nunito", sans-serif;
+  text-align: left;
+  font-weight: 400;
+}
+
+.dashboard__second__content__card {
+  margin-top: 15px;
+  background: #fff;
+  width: 289px;
+  height: 203px;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.dashboard__second__inner__card {
+  background: #f6faff;
+  width: 265px;
+  height: 179px;
+  margin: 12px auto;
+  z-index: 2;
+  border-radius: 10px;
+}
+
+.dashboard__second__inner__content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  margin-left: 10px;
+}
+
+.total__transfer__text {
+  color: #4f64a7;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+}
+
+.more__content {
+  display: flex;
+  position: relative;
+}
+
+.more__btn {
+  width: 82px;
+  height: 30px;
+  background: #eaf4ff;
+  border-radius: 7px;
+  border: 1px solid #eaf4ff;
+  color: #032282;
+  font-size: 14px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  text-align: left;
+  padding-left: 15px;
+  position: relative;
+  margin-right: 20px;
+}
+
+.more__down {
+  position: absolute;
+  top: 7px;
+  right: 25px;
+}
+
+.dashboard__second__context {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.average {
+  margin-top: 12px !important;
+}
+
+.dashboard__today__content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.dashboard__successful__content {
+  display: flex;
+}
+
+.today__currency__content {
+  display: flex;
+  margin-top: 5px;
+}
+
+.today__text {
+  color: #4f64a7;
+  font-family: "Nunito", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.pos__text {
+  font-size: 12px !important;
+  font-weight: 300 !important;
+}
+
+.lotto__text {
+  font-size: 12px !important;
+  font-weight: 300 !important;
+}
+
+.today__text_i {
+  color: #4f64a7;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 5px;
+}
+
+.currency__icon {
+  height: 15px;
+  width: 20px;
+  color: #032282;
+  margin-top: 3px;
+}
+
+.currency__icon_i {
+  height: 15px;
+  width: 20px;
+  color: #032282;
+  margin-top: 3px;
+}
+
+.today__currency__text {
+  color: #032282;
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+}
+
+.dashboard__third__content__card {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 289px;
+  height: 155px;
+  z-index: 1;
+  margin-top: 15px;
+}
+
+.dashboard__third__inner__card {
+  background-color: #f6faff;
+  width: 265px;
+  height: 132px;
+  margin: 12px auto;
+}
+
+.dashboard__fourth__content__card {
+  background: #fff;
+  width: 598px;
+  height: 203px;
+  border-radius: 10px;
+  margin-left: 28px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fourth__card {
+  margin-top: 2px !important;
+}
+
+.fourth__section {
+  margin-top: 30px;
+  padding-top: 30px;
+}
+
+.dashboard__fourth__content {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.transaction__money {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.transaction__cash {
+  display: flex;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.transaction__cashout {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-left: 15px;
+}
+
+.transaction__cashout__content {
+  display: flex;
+}
+
+.transaction__cashout__content_i {
+  display: flex;
+  margin-left: 40px;
+  padding-left: 40px;
+}
+
+.transaction__comp {
+  color: #37474f;
+  padding-top: 10px;
+  padding-left: 15px;
+  font-family: "Nunito", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.sendmoney__text {
+  color: #37474f;
+  padding-left: 3px;
+  font-family: "Nunito", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.transaction__currency {
+  color: #263238;
+  height: 20px;
+  width: 18px;
+  margin-top: 2px;
+}
+
+.transaction__cash__text {
+  color: #263238;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.cashout__text {
+  padding-left: 4px;
+  color: #37474f;
+  font-family: "Nunito", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.piechart {
+  margin-right: 20px;
+}
+
+/* For Responsiveness */
+
+@media (max-width: 479px) {
+  .dashboard__container {
+    display: none;
+  }
+}
+
+@media (min-width: 480x) and (max-width: 767px) {
+  .dashboard__container {
+    display: none;
+  }
+}

@@ -1,0 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mobile__dashboard__content {
+  display: none;
+}
+
+/* For Responsiveness */
+
+@media (max-width: 479px) {
+  .maindashboard__container {
+    display: none;
+  }
+
+  .maindashboard__mobile__container {
+    display: block;
+    background-color: #032282;
+    height: 120px;
+    width: 100%;
+  }
+
+  .mobile__container__header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 30px;
+  }
+
+  .mobile__container__first {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .mobile__container__second {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 13px;
+  }
+
+  .mobile__text {
+    color: #fff;
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+  }
+
+  .mobile__location {
+    padding-left: 7px;
+  }
+
+  .mobile__bar {
+    margin-left: 7px;
+  }
+
+  .mobile__network {
+    margin-left: 7px;
+  }
+
+  .mobile__strength {
+    margin-left: 7px;
+  }
+
+  .mobile__second__header__content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .mobile__analytics {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 30px;
+  }
+
+  .mobile__analytics__text {
+    font-size: 18px;
+    color: #fff;
+    font-family: "Nunito", sans-serif;
+    padding-top: 12px;
+  }
+
+  .mobile__menu {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 13px;
+  }
+
+  .mobile__menu__button {
+    color: #fff;
+    font-size: 16px;
+    font-family: "Nunito", sans-serif;
+    background-color: #2d4696;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #2d4696;
+  }
+
+  .mobile__dashboard__content {
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    align-content: center !important;
+    align-items: center !important;
+    background-color: #f8f9fb;
+  }
+
+  .dashboard__content {
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    align-content: center !important;
+    align-items: center !important;
+  }
+
+  .dashboard__content__i {
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    align-content: center !important;
+    align-items: center !important;
+    margin-left: 0px !important;
+  }
+
+  .dashboard__img {
+    width: 327px !important;
+  }
+
+  .dashboard__content__card {
+    width: 327px !important;
+  }
+
+  .dashboard__second__content__card {
+    width: 327px !important;
+  }
+
+  .dashboard__third__content__card {
+    width: 327px !important;
+  }
+
+  .fourth__card {
+    margin-bottom: 18px;
+  }
+
+  .dashboard__fourth__content__card {
+    display: flex;
+    flex-direction: column !important;
+    width: 327px !important;
+    height: 464px !important;
+    margin-left: 0px !important;
+  }
+
+  .transaction__cashout {
+    display: flex;
+    justify-content: flex-start !important;
+  }
+
+  .currency__i {
+    margin-left: -18px;
+  }
+}
+
+@media (min-width: 480x) and (max-width: 767px) {
+  .maindashboard__container {
+    display: none;
+  }
+
+  .maindashboard__mobile__container {
+    display: block;
+    background-color: #032282;
+    height: 120px;
+    width: 100%;
+  }
+
+  .mobile__container__header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 30px;
+  }
+
+  .mobile__container__first {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .mobile__container__second {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 13px;
+  }
+
+  .mobile__text {
+    color: #fff;
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+  }
+
+  .mobile__bar {
+    margin-left: 7px;
+  }
+
+  .mobile__network {
+    margin-left: 7px;
+  }
+
+  .mobile__strength {
+    margin-left: 7px;
+  }
+
+  .mobile__second__header__content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .mobile__analytics {
+    margin-top: 15px;
+  }
+
+  .mobile__analytics__text {
+    font-size: 18px;
+    color: #fff;
+    font-family: "Nunito", sans-serif;
+    padding-top: 12px;
+  }
+
+  .mobile__menu {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 13px;
+  }
+
+  .mobile__menu__button {
+    color: #fff;
+    font-size: 14px;
+    font-family: "Nunito", sans-serif;
+    background-color: #2d4696;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #2d4696;
+  }
+
+  .mobile__dashboard__content {
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    align-content: center !important;
+    align-items: center !important;
+    background-color: #f8f9fb;
+  }
+
+  .dashboard__content {
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    align-content: center !important;
+    align-items: center !important;
+    margin-bottom: 15px;
+  }
+
+  .dashboard__img {
+    width: 327px !important;
+  }
+
+  .dashboard__content__card {
+    width: 327px !important;
+  }
+
+  .dashboard__second__content__card {
+    width: 327px !important;
+  }
+
+  .dashboard__third__content__card {
+    width: 327px !important;
+  }
+
+  .fourth__card {
+    margin-bottom: 18px;
+  }
+
+  .dashboard__fourth__content__card {
+    display: flex;
+    flex-direction: column !important;
+    width: 327px !important;
+    height: 464px !important;
+    margin-left: 0px !important;
+  }
+
+  .transaction__cashout {
+    display: flex;
+    justify-content: flex-start !important;
+  }
+
+  .currency__i {
+    margin-left: -18px;
+  }
+}
